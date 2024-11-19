@@ -1,11 +1,10 @@
-import { useState } from 'react'
+import Calculator from "./components/Calculator";
 
-function App() {
-  
 
-  return 
+const App = () => {
+  return (
+      <Calculator />
+  );
 }
 
-export default App
-
-
+export default App;
